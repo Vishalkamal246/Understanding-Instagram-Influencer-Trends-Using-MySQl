@@ -1,0 +1,9 @@
+Techniques Using MySQL
+Steps Taken:
+• Data Import: Loaded CSV into MySQL database table.
+• Cleaning: Removed duplicates, fixed nulls using UPDATE & IS NULL.
+• Queries Written: Top influencers by followers: ORDER BY Followers DESC High engagement:
+WHERE Engagement_Rate > 5% Category-wise ranking: GROUP BY Category with AVG()
+Country-wise counts: GROUP BY Country
+• Joins (if needed): Joined with campaign data (optional) Aggregations: Used SUM(),
+AVG(), COUNT() for summary stats.
